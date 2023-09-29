@@ -72,7 +72,14 @@
 
     //Date picker
     $('#reservationdate1').datetimepicker({
-        format: 'DD-MM-YYYY'
+        format: 'DD-MM-YYYY',
+        defaultDate: moment()
+    });
+
+    //Date picker
+    $('#reservationdate2').datetimepicker({
+        format: 'DD-MM-YYYY',
+        defaultDate: moment()
     });
 
     //Date and time picker
@@ -122,8 +129,18 @@
     })
 
   })
+// appraisal images
+  $(document).ready(function() {
+    $('.product-image-thumb').on('click', function () {
+      var $image_element = $(this).find('img')
+      $('.product-image').prop('src', $image_element.attr('src'))
+      $('.product-image-thumb.active').removeClass('active')
+      $(this).addClass('active')
+    })
+  })
 
  
 </script>
+
 </body>
 </html>

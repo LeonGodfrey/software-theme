@@ -108,7 +108,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-6">
-                                            <a href="disburesed_loan.php">
+                                            <a href="loan_disbursed.php">
                                                 <h5><b>Long Term Loan</b></h5>
                                             </a>
                                             <p class="p-0">Education</p>

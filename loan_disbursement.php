@@ -11,7 +11,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Loan Approval</h1>
+                            <h1 class="m-0">Loan Disbursement</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="col-sm-12">
-                            <form action="loan_disbursement.php" enctype="multipart/form-data">
+                            <form action="loan_disbursed.php" enctype="multipart/form-data">
                                 <div class="card">
                                     <div class="card-header">
                                         <h3 class="card-title text-bold col-xs-6">Loan Application Details</h3>
@@ -192,7 +192,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label style="font-weight: normal;" for="LoanOfficer">Approved by: *</label>
-                                                    <select class="form-control" style="width: 100%;">
+                                                    <select class="form-control" style="width: 100%;" disabled>
                                                         <option>Select Loan Officer</option>
                                                         <option selected>Katamba Herman</option>
                                                         <option>Kasule Ismeal</option>
@@ -207,7 +207,7 @@
                                                         <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
                                                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                         </div>
-                                                        <input name="transaction_date" type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
+                                                        <input name="transaction_date" type="text" class="form-control datetimepicker-input" data-target="#reservationdate" disabled />
                                                     </div>
                                                 </div>
                                             </div>
@@ -216,13 +216,13 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label style="font-weight: normal;" for="amount">Approved Loan Amount:*</label>
-                                                    <input name="amount" type="text" class="form-control" value="1,000,000">
+                                                    <input name="amount" type="text" class="form-control" value="1,000,000" disabled>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label style="font-weight: normal;" for="deposit">Approved Repayment Period in months*</label>
-                                                    <input name="amount" type="number" class="form-control" value="8">
+                                                    <input name="amount" type="number" class="form-control" value="8" disabled>
                                                 </div>
                                             </div>
                                         </div>
@@ -230,23 +230,35 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label style="font-weight: normal;" for="appraisal">Approval Interest Rate in Percentage (%)</label>
-                                                    <input name="recommendation" type="number" class="form-control" value="">
+                                                    <input name="recommendation" type="number" class="form-control" value="6" disabled>
                                                     
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                 <label style="font-weight: normal;" for="recommendation">Approval Comment:*</label>
-                                                    <input name="recommendation" type="text" class="form-control" value="">
+                                                    <input name="recommendation" type="text" class="form-control" value="Good repayment record" disabled>
                                                 </div>
                                             </div>
                                         </div>
-                                        
+                                        <div class="dropdown-divider"></div>
+                                        <h5 class="text-bold">Loan Disbursement</h5>
                                         <div class="row">
-                                            <div class="col-md-12">
+                                        <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <p class="text-sm">Show Temporary Loan Repayment Schedule </p>
-                                                    <button name="submit" type="submit" class="btn btn-sm text-sm btn-info">Show Schedule</button>
+                                                    <label style="font-weight: normal;" for="deposit">Disbusement Repayment Period*</label>
+                                                    <input name="amount" type="number" class="form-control" value="8">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label style="font-weight: normal;">Loan Disbursement Date*</label>
+                                                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                        </div>
+                                                        <input name="transaction_date" type="text" class="form-control datetimepicker-input" data-target="#reservationdate2" />
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -254,40 +266,12 @@
                                     <!-- /.card-body -->
                                     <div class="card-footer">
                                         <div class="card-tools text-right">
-                                            <button name="submit" type="submit" class="btn btn-success">Approve For Disbursement</button>
+                                            <button name="submit" type="submit" class="btn btn-success">Disburse This Loan</button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
-                        </div>
-                        <!-- reject -->
-                        <div class="col-sm-12">
-                            <div class="card">
-                                <!-- /.card-header -->
-                                <div class="card-body pb-1">
-                                    <form action=" ">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <p class="text-sm text-danger"><b>Deffer this Loan</b><br>What is the reason for Deffering this application?</p>
-                                                <div class="form-group">
-                                                
-                                                    <input name="recommendation" type="text" class="form-control" value="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="card-tools text-right">
-                                                    <button name="submit" type="submit" class="btn btn-sm btn-danger text-sm">Deffer This Loan</button>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <!-- /.card-body -->
-                            </div>
-                            <!-- /.card -->
-                        </div>
-                        <!-- reject -->
+                        </div>                        
                         <!-- delete -->
                         <div class="col-sm-12">
                             <div class="card">

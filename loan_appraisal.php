@@ -176,7 +176,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label style="font-weight: normal;" for="nin">Other Loan Files</label>
-                                                    <p class="text-sm">*Please scan and upload the any other loan file like collateral and business files.</p>
+                                                    <p class="text-sm">*Please scan and upload any other loan file like collateral and business files.</p>
 
                                                     <div class="custom-file">
                                                         <input type="file" class="custom-file-input" id="customFile">
@@ -196,7 +196,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <p class="text-sm">Show Temporary Loan Rpayment Schedule </p>
+                                                    <p class="text-sm">Show Temporary Loan Repayment Schedule </p>
                                                     <button name="submit" type="submit" class="btn btn-sm text-sm btn-info">Show Schedule</button>
                                                 </div>
                                             </div>
@@ -206,16 +206,37 @@
                                     <div class="card-footer">
                                         <div class="card-tools text-right">
                                             <button name="submit" type="submit" class="btn btn-success">Submit Appraisal</button>
-                                        </div>
-                                        <div class="card-tools">
-                                        <p class="text-sm text-danger"><b>Delete this Loan</b><br>*Note that this action cannot be undone!</p>
-                                            <button name="submit" type="submit" class="btn btn-sm btn-danger text-sm">Delete</button>
-                                        </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </form>
                         </div>
+                        <!-- delete -->
+            <div class="col-sm-12">
+              <div class="card">
+                <!-- /.card-header -->
+                <div class="card-body pb-1">
+                  <form action=" ">
+                    <div class="row">
+                      <div class="col-md-6">
+                      <p class="text-sm text-danger"><b>Delete this Loan</b><br>*Note that this action cannot be undone!</p>
+                      </div>
+                      <div class="col-md-6">
+                      <div class="card-tools text-right">
+                                            <button name="submit" type="submit" class="btn btn-sm btn-danger text-sm">Delete</button>
+                                        </div>
+
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- delete -->
                     </div><!-- /.main-row -->
+                    
                 </div>
             </div><!-- /.container-fluid -->
         </div>

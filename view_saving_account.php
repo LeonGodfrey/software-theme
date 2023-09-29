@@ -15,8 +15,9 @@
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="clients.php">Clients</a></li>
+                                
                                 <li class="breadcrumb-item"><a href="client.php">SSEGAWA GODFREY</a></li>
+                                <li class="breadcrumb-item"><a href="clients.php">Clients</a></li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
