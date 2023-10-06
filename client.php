@@ -32,7 +32,7 @@
                             <div class="card">
                                 <div class="card-body pd-0">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-sm-6 col-12">
                                             <a href="ssegawa">
                                                 <h5><b>SSEGAWA GODFREY - HM-LTL-200</b></h5>
                                             </a>                                    
@@ -42,12 +42,12 @@
                                             
                                             <p class="text-sm"><a href="new_client.php" class="btn-sm btn-success">View Info</a>  |  <a href="new_client.php" class="btn-sm btn-info">Edit Info</a></p>                                
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-sm-4 col-6">
                                         <p class="text-sm"><b>Address: </b>STREET ADDRESS, VILLAGE, DISTRICT</p>                                          
                                             <p class="text-sm"><b>City</b> KAMPALA</p>
                                             <p class="text-sm"><b>Age:</b> 25 years <br> <b>Branch:</b> Mayuge</p>
                                         </div>
-                                        <div class="col-2 text-center">
+                                        <div class="col-sm-2 col-6 text-center">
                                             <img src="images/image1.jpg" alt="user-profile" class="img-thumbnail" style="width: 80%">
                                         </div>
                                     </div>

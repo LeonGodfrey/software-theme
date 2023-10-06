@@ -1,5 +1,5 @@
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-light-primary elevation-4">
+  <aside class="main-sidebar mi-side-color sidebar-light-primary elevation-4">
     <!-- Brand Logo -->
     <a href="dashboard.php" class="brand-link">     
       <span class="brand-text text-success"><b>MICROFIN</b> UGANDA LTD</span>
@@ -249,63 +249,57 @@
             </a>
             <ul class="nav nav-treeview">
             <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
+                <a href="org_details.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Details</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
+                <a href="org_preferences.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Preferences</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
+                <a href="org_branches.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Branches</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/inline.html" class="nav-link">
+                <a href="org_chart_of_accounts_assets.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Chart Of Accounts</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
+                <a href="org_roles.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Roles</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
+                <a href="org_users.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Users</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
+                <a href="org_savings_product.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Savings Products</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
+                <a href="org_loan_product.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Loan Products</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
+                <a href="org_data_imports.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Imports</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/uplot.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Salutations</p>
                 </a>
               </li>
             </ul>

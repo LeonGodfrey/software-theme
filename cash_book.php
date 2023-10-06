@@ -123,7 +123,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                            <tr class="text-nowrap">
                                                 <td>01</td>
                                                 <td class="text-nowrap">2023-06-23</td>
                                                 <td class="text-nowrap">Nebbi Branch</td>

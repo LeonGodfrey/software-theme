@@ -75,15 +75,13 @@
                   <div class="row">
                     <div class="col-6">
                       <a href="client.php">
-                        <h5><b>SSEGAWA GODFREY</b></h5>
+                        <h5><b>SSEGAWA GODFREY</b> | HM-LTL-200-STL-103</h5>
                       </a>
-                      <p> <span class="text-sm">00636I05 </span> | <b>HM-LTL-200-STL-103</b></p>
                       <P>+256782167191</P>
                     </div>
                     <div class="col-5">
                       <p class="text-sm">NALUVULE M/C</p>
-                      <p class="text-sm">NALUVULE</p>
-                      <p class="text-sm">WAKISO | KAMPALA</p>
+                      <p class="text-sm">NALUVULE | WAKISO | KAMPALA</p>
                     </div>
                     <div class="col-1 text-center">
                       <img src="images/image1.jpg" alt="user-profile" class="img-thumbnail img-fluid mx-auto d-none d-md-block" style="width: 100%;">
@@ -93,15 +91,13 @@
                   <div class="row">
                     <div class="col-6">
                       <a href="client.php">
-                        <h5><b>OPOLOT PETER</b></h5>
+                        <h5><b>OPOLOT PETER</b> | PB-STL-544</h5>
                       </a>
-                      <p> <span class="text-sm">00636I05 </span> | <b>PB-STL-544</b></p>
                       <P>+256782167191</P>
                     </div>
                     <div class="col-5">
                       <p class="text-sm">KAGUMU</p>
-                      <p class="text-sm">KAGUMU</p>
-                      <p class="text-sm">KIKUBE | MBALE</p>
+                      <p class="text-sm">KAGUMU | KIKUBE | MBALE</p>
                     </div>
                     <div class="col-1 text-center">
                       <img src="images/image1.jpg" alt="user-profile" class="img-thumbnail img-fluid mx-auto d-none d-md-block" style="width: 100%;">
@@ -111,15 +107,13 @@
                   <div class="row">
                     <div class="col-6">
                       <a href="client.php">
-                        <h5><b>MUKENYE JAMES</b></h5>
+                        <h5><b>Client Name</b> | unique-no</h5>
                       </a>
-                      <p> <span class="text-sm">00636I05 </span> | <b>PB-STL-544</b></p>
-                      <P>+256782167191</P>
+                      <P>phone</P>
                     </div>
                     <div class="col-5">
-                      <p class="text-sm">DEMBE</p>
-                      <p class="text-sm">KAGOLI</p>
-                      <p class="text-sm">PALLISA | MBALE</p>
+                      <p class="text-sm">Street Address</p>
+                      <p class="text-sm">Village | District | City</p>
                     </div>
                     <div class="col-1 text-center">
                       <img src="images/image1.jpg" alt="user-profile" class="img-thumbnail img-fluid mx-auto d-none d-md-block" style="width: 100%;">
@@ -129,15 +123,13 @@
                   <div class="row">
                     <div class="col-6">
                       <a href="client.php">
-                        <h5><b>OBIA SIMON</b></h5>
+                        <h5><b>Client Name</b> | unique-no</h5>
                       </a>
-                      <p> <span class="text-sm">00636I05 </span> | <b>PB-STL-544</b></p>
-                      <P>+256782167191</P>
+                      <P>phone</P>
                     </div>
                     <div class="col-5">
-                      <p class="text-sm">ADJUMANI</p>
-                      <p class="text-sm">ADJUMANI</p>
-                      <p class="text-sm">ADJUMANI | GULU</p>
+                      <p class="text-sm">Street Address</p>
+                      <p class="text-sm">Village | District | City</p>
                     </div>
                     <div class="col-1 text-center">
                       <img src="images/image1.jpg" alt="user-profile" class="img-thumbnail img-fluid mx-auto d-none d-md-block" style="width: 100%;">
@@ -147,15 +139,13 @@
                   <div class="row">
                     <div class="col-6">
                       <a href="client.php">
-                        <h5><b>WILFRED OKELLO</b></h5>
+                        <h5><b>Client Name</b> | unique-no</h5>
                       </a>
-                      <p> <span class="text-sm">00636I05 </span> | <b>PB-STL-544</b></p>
-                      <P>+256782167191</P>
+                      <P>phone</P>
                     </div>
                     <div class="col-5">
-                      <p class="text-sm">ADDRESS</p>
-                      <p class="text-sm">VILLAGE</p>
-                      <p class="text-sm">DISTRICT | CITY</p>
+                      <p class="text-sm">Street Address</p>
+                      <p class="text-sm">Village | District | City</p>
                     </div>
                     <div class="col-1 text-center">
                       <img src="images/image1.jpg" alt="user-profile" class="img-thumbnail img-fluid mx-auto d-none d-md-block" style="width: 100%;">

@@ -52,49 +52,46 @@
                         <!-- installment details -->
                         <div class="col-sm-12">
                             <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <p class="font-weight-bold">INSTALLMENTS IN ARREARS</p>
-                                            <table class="table table-hover table-sm">
-                                                <thead>
-                                                    <tr class="text-nowrap">
-                                                        <th>Due Date</th>
-                                                        <th>Principle</th>
-                                                        <th>Interest</th>
-                                                        <th>Penalties</th>
-                                                        <th>Total Install Due</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>29-09-2023</td>
-                                                        <td>125,000</td>
-                                                        <td>60,000</td>
-                                                        <td>0</td>
-                                                        <td>185,000</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>29-10-2023</td>
-                                                        <td>125,000</td>
-                                                        <td>60,000</td>
-                                                        <td>0</td>
-                                                        <td>185,000</td>
-                                                    </tr>
-                                                <tfoot>
-                                                    <tr>
-                                                        <th>Total Due</th>
-                                                        <th></th>
-                                                        <th></th>
-                                                        <th></th>
-                                                        <th>370,000</th>
-                                                    </tr>
-                                                </tfoot>
-                                                </tbody>
-                                            </table>
-
-                                        </div>
-                                    </div>
+                            <div class="card-header">
+                                    <h4 class="card-title text-success"><b>INSTALLMENTS IN ARREARS</b></h4>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                    <table class="table table-hover table-sm">
+                                        <thead>
+                                            <tr class="text-nowrap">
+                                                <th class="text-nowrap">Due Date</th>
+                                                <th>Principal</th>
+                                                <th>Interest</th>
+                                                <th>Penalties</th>
+                                                <th>Installment Due</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="text-nowrap">
+                                                <td>29-09-2023</td>
+                                                <td>125,000</td>
+                                                <td>60,000</td>
+                                                <td>0</td>
+                                                <td>185,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>29-10-2023</td>
+                                                <td>125,000</td>
+                                                <td>60,000</td>
+                                                <td>0</td>
+                                                <td>185,000</td>
+                                            </tr>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Total Due</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>370,000</th>
+                                            </tr>
+                                        </tfoot>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +103,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;" for="deposit">Amount Recieved*</label>
+                                                    <label style="font-weight: normal;" for="deposit">Total Amount Recieved*</label>
                                                     <input name="amount" type="number" class="form-control" id="">
                                                 </div>
                                             </div>
@@ -173,7 +170,7 @@
                                                 <th>ID</th>
                                                 <th>Date Paid</th>
                                                 <th>Total Paid</th>
-                                                <th>Principle</th>
+                                                <th>Principal</th>
                                                 <th>Interest</th>
                                                 <th>Penalties</th>
                                                 <th>Receipt</th>
@@ -189,7 +186,7 @@
                                                 <td>60,000</td>
                                                 <td>0</td>
                                                 <td><button class="btn btn-xs btn-success">Receipt</button></td>
-                                                <td><button class="btn btn-xs btn-danger">Reverse</button></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td>79229</td>
@@ -199,7 +196,7 @@
                                                 <td>60,000</td>
                                                 <td>0</td>
                                                 <td><button class="btn btn-xs btn-success">Receipt</button></td>
-                                                <td><button class="btn btn-xs btn-danger">Reverse</button></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td>79229</td>
@@ -209,7 +206,7 @@
                                                 <td>60,000</td>
                                                 <td>0</td>
                                                 <td><button class="btn btn-xs btn-success">Receipt</button></td>
-                                                <td><button class="btn btn-xs btn-danger">Reverse</button></td>
+                                                <td></td>
                                             </tr>
                                         </tbody>
                                     </table>

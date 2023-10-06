@@ -41,8 +41,11 @@
     }
 
     .mi-bg {
-      background-color: #E2F1A0; 
-      /* Yellow green 4ED8E*/
+      background-color:#ffe6e6; 
+      /* Yellow green 4ED8E, E2F1A0 , #73733f , 001a00*/
     }
+  .mi-nav-color{
+    background-color: #194d19; 
+  }
   </style>
 </head>

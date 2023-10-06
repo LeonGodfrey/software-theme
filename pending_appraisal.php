@@ -73,11 +73,9 @@
                                                             </div>
                                                         </div>
                                                     </div>
-
                                                     <div class="col-md-3">
                                                         <div class="form-group">
                                                             <button type="submit" class="btn bg-success" value="Search">Search</button>
-                                                            <button type="clear" class="btn btn-default">Clear</button>
                                                         </div>
                                                     </div>
                                                 </div>

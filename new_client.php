@@ -70,7 +70,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label style="font-weight: normal;" for="card">Card Numbers*</label>
+                                                        <label style="font-weight: normal;" for="card">Unique Number*</label>
                                                         <input type="text" class="form-control" id="" placeholder="client's card numbers">
                                                     </div>
                                                 </div>
@@ -281,7 +281,6 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label style="font-weight: normal;" for="nin">Passport Photo</label>
-
                                                         <div class="custom-file">
                                                             <input type="file" class="custom-file-input" id="customFile">
                                                             <label class="custom-file-label" for="customFile">Choose Photo</label>

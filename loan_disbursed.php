@@ -323,7 +323,7 @@
                                                 <th>ID</th>
                                                 <th>Date Paid</th> 
                                                 <th>Total Paid</th>
-                                                <th>Principle</th>
+                                                <th>Principal</th>
                                                 <th>Interest</th>
                                                 <th>Penalties</th>                            
                                                 <th>Receipt</th>
@@ -331,7 +331,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                            <tr class="text-nowrap">
                                                 <td>79229</td>
                                                 <td>29-09-2023</td>
                                                 <td>185,000</td>
@@ -339,7 +339,7 @@
                                                 <td>60,000</td>
                                                 <td>0</td>                               
                                                 <td><button class="btn btn-xs btn-success">Receipt</button></td>
-                                                <td><button class="btn btn-xs btn-danger">Reverse</button></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td>79229</td>
@@ -349,7 +349,7 @@
                                                 <td>60,000</td>
                                                 <td>0</td>                                          
                                                 <td><button class="btn btn-xs btn-success">Receipt</button></td>
-                                                <td><button class="btn btn-xs btn-danger">Reverse</button></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td>79229</td>
@@ -359,7 +359,7 @@
                                                 <td>60,000</td>
                                                 <td>0</td>                                          
                                                 <td><button class="btn btn-xs btn-success">Receipt</button></td>
-                                                <td><button class="btn btn-xs btn-danger">Reverse</button></td>
+                                                <td></td>
                                             </tr>                                            
                                         </tbody>
                                     </table>
