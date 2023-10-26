@@ -15,7 +15,7 @@
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="org_loan_product.php">Loan Product</a></li>
+                                <li class="breadcrumb-item"><a href="org_loan_product.php">Loan Products</a></li>
                                 <!-- <li class="breadcrumb-item active">SSEGAWA GODFREY</li> -->
                             </ol>
                         </div><!-- /.col -->
@@ -64,10 +64,13 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label style="font-weight: normal;" for="purpose">Interest Rate(%)</label>
-                                                    <p class="text-sm">Periodic interest rate based on the repayment frequency.></p>
-                                                    <input type="number" class="form-control" id="" name="purpose" value="0">
+                                                <label style="font-weight: normal;" for="purpose">Interest Rate (%)</label>
+                                                <p class="text-sm">Periodic interest rate based on the repayment frequency.</p>
+                                                <div class="input-group mb-3">
+                                                    <input type="number" class="form-control">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">%</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,10 +88,13 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label style="font-weight: normal;" for="purpose">Penalty Rate(%) *</label>
-                                                    <p class="text-sm">The proportion of the loan's principal and interest arrears that is charged at the penalty frequency.</p>
-                                                    <input type="number" class="form-control" id="" name="purpose" value="0">
+                                                <label style="font-weight: normal;" for="purpose">Penalty Rate(%) *</label>
+                                                <p class="text-sm">The proportion of the loan's principal and interest arrears that is charged at the penalty frequency.</p>
+                                                <div class="input-group mb-3">
+                                                    <input type="number" class="form-control">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">%</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -113,28 +119,32 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label style="font-weight: normal;" for="purpose">Arrears Maturity Period *</label>
+                                            <div class="col-md-6">                                                
+                                                <label style="font-weight: normal;" for="purpose">Arrears Maturity Period *</label>
                                                     <p class="text-sm">The period following a missed payment after which the loan will be considered in arrears.</p>
-                                                    <input type="number" class="form-control" id="" name="purpose" value="0">
-                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="number" class="form-control" value="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">Months</span>
+                                                    </div>
+                                                </div>                                                
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
+                                            <div class="col-md-6">                                                
                                                 <label style="font-weight: normal;" for="purpose">Maximum Loan Period in months *</label>
                                                     <p class="text-sm">The longest period that can be give to a client in months.</p>
-                                                    <input type="number" class="form-control" id="" name="purpose" value="0">
-                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="number" class="form-control" value="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">Months</span>
+                                                    </div>
+                                                </div>  
                                             </div>
                                         </div>
                                         <hr>
-                                        
-
                                         <!-- /.card-body -->
                                         <div class="card-footer">
                                             <div class="card-tools text-right">
-                                                <button name="submit" type="submit" class="btn btn-success">Create Savings Product</button>
+                                                <button name="submit" type="submit" class="btn btn-success">Create Loan Product</button>
                                             </div>
                                         </div>
                                     </div>

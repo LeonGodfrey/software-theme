@@ -30,7 +30,7 @@
                     <div class="row">
                         <!-- filter -->
                         <div class="col-sm-12">
-                            <div class="card">
+                            <div class="card card-outline card-success">
 
                                 <!-- /.card-header -->
                                 <div class="card-body pb-1 pt-1">
@@ -99,17 +99,13 @@
                         </div>
                         <!-- filter -->
                         <div class="col-sm-12">
-                            <div class="card">
+                            <div class="card card-outline card-success">
                                 <div class="card-header">
-                                    <h3 class="card-title text-success"><b>Nebbi-Branch - Cashier</b></h3>
-                                    <div class="card-tools">
-                                        <button class="btn bg-success">Export CSV</button>
-                                        <button class="btn bg-success">Print PDF</button>
-                                    </div>
+                                    <h3 class="card-title text-success"><b>Nebbi-Branch - Cashier</b></h3>                                    
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body table-responsive p-0">
-                                    <table class="table table-bordered table-hover table-head-fixed table-sm">
+                                    <table id="example1" class="table table-bordered table-hover table-head-fixed table-sm">
                                         <thead>
                                             <tr class="text-nowrap">
                                                 <th>ID</th>
@@ -127,8 +123,8 @@
                                                 <td>01</td>
                                                 <td class="text-nowrap">2023-06-23</td>
                                                 <td class="text-nowrap">Nebbi Branch</td>
-                                                <td>Opening Balance</td>
-                                                <td>Cash Transfer</td>
+                                                <td class="text-nowrap">Opening Balance</td>
+                                                <td class="text-nowrap">Cash Transfer</td>
                                                 <td class="text-primary"><b>817,650</b></td>
                                                 <td class="text-danger"><b>0</b></td>
                                                 <td class="text-primary"><b>817,650</b></td>
@@ -138,8 +134,8 @@
                                                 <td class="text-nowrap">2023-06-23</td>
                                                 <td class="text-nowrap">Interest Short Term loan</br>
                                                 Short Term Loan</td>
-                                                <td>Ocwii Maurine - NEBB-LTL-050-STL-034</td>
-                                                <td>Loan Payment</td>
+                                                <td class="text-nowrap">Ocwii Maurine - NEBB-LTL-050-STL-034</td>
+                                                <td class="text-nowrap">Loan Payment</td>
                                                 <td class="text-primary"><b>230,000	</b></td>
                                                 <td class="text-danger"><b>0</b></td>
                                                 <td class="text-primary"><b>1,047,650</b></td>

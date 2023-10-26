@@ -133,7 +133,7 @@
             </div><!-- /.container-fluid -->
         </div>
         <!-- /.content -->
-    </div>
+    
     <!-- /.content-wrapper -->
     <?php include 'partials/footer.php'; ?>
     </div>

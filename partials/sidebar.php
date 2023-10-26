@@ -103,25 +103,25 @@
             </a>
             <ul class="nav nav-treeview">
             <li class="nav-item">
-                <a href="pages/individuals.php" class="nav-link">
+                <a href="new_cash_transfer.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Cash Transfers</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/individuals.php" class="nav-link">
+                <a href="incomes.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Incomes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/individuals.php" class="nav-link">
+                <a href="expenses.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Expenses</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/individuals.php" class="nav-link">
+                <a href="non_cash_transaction.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Non Cash Transactions</p>
                 </a>

@@ -38,17 +38,31 @@
 <script src="plugins/bs-stepper/js/bs-stepper.min.js"></script>
 <!-- dropzonejs -->
 <script src="plugins/dropzone/min/dropzone.min.js"></script>
+<!-- DataTables  & Plugins -->
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="plugins/jszip/jszip.min.js"></script>
+<script src="plugins/pdfmake/pdfmake.min.js"></script>
+<script src="plugins/pdfmake/vfs_fonts.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <!-- <script src="dist/js/demo.js"></script> -->
 
- <script>
-   $(function () {
-  bsCustomFileInput.init();
-});
-  
-  $(function () {
+
+<script>
+  $(function() {
+    bsCustomFileInput.init();
+  });
+
+  $(function() {
     //Initialize Select2 Elements
     $('.select2').select2()
 
@@ -58,32 +72,53 @@
     })
 
     //Datemask dd/mm/yyyy
-    $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
+    $('#datemask').inputmask('dd/mm/yyyy', {
+      'placeholder': 'dd/mm/yyyy'
+    })
     //Datemask2 mm/dd/yyyy
-    $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
+    $('#datemask2').inputmask('mm/dd/yyyy', {
+      'placeholder': 'mm/dd/yyyy'
+    })
     //Money Euro
     $('[data-mask]').inputmask()
 
     //Date picker
     $('#reservationdate').datetimepicker({
-        format: 'DD-MM-YYYY',
-        defaultDate: moment()
+      format: 'DD-MM-YYYY',
+      defaultDate: moment(),
+      maxDate: moment(),
+      allowInputToggle: true,
+      showTodayButton: true,
+      showClear: true
     });
 
     //Date picker
     $('#reservationdate1').datetimepicker({
-        format: 'DD-MM-YYYY',
-        defaultDate: moment()
+      format: 'DD-MM-YYYY',
+      defaultDate: moment(),
+      maxDate: moment(),
+      allowInputToggle: true,
+      showTodayButton: true,
+      showClear: true
     });
 
     //Date picker
     $('#reservationdate2').datetimepicker({
-        format: 'DD-MM-YYYY',
-        defaultDate: moment()
+      format: 'DD-MM-YYYY',
+      defaultDate: moment(),
+      maxDate: moment(),
+      allowInputToggle: true,
+      showTodayButton: true,
+      showClear: true
+
     });
 
     //Date and time picker
-    $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
+    $('#reservationdatetime').datetimepicker({
+      icons: {
+        time: 'far fa-clock'
+      }
+    });
 
     //Date range picker
     $('#reservation').daterangepicker()
@@ -95,24 +130,6 @@
         format: 'MM/DD/YYYY hh:mm A'
       }
     })
-    //Date range as a button
-    $('#daterange-btn').daterangepicker(
-      {
-        ranges   : {
-          'Today'       : [moment(), moment()],
-          'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-          'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
-          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-          'This Month'  : [moment().startOf('month'), moment().endOf('month')],
-          'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-        },
-        startDate: moment().subtract(29, 'days'),
-        endDate  : moment()
-      },
-      function (start, end) {
-        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
-      }
-    )
 
     //Timepicker
     $('#timepicker').datetimepicker({
@@ -122,16 +139,16 @@
     //Bootstrap Duallistbox
     $('.duallistbox').bootstrapDualListbox()
 
-    
 
-    $("input[data-bootstrap-switch]").each(function(){
+
+    $("input[data-bootstrap-switch]").each(function() {
       $(this).bootstrapSwitch('state', $(this).prop('checked'));
     })
 
   })
-// appraisal images
+  // appraisal images
   $(document).ready(function() {
-    $('.product-image-thumb').on('click', function () {
+    $('.product-image-thumb').on('click', function() {
       var $image_element = $(this).find('img')
       $('.product-image').prop('src', $image_element.attr('src'))
       $('.product-image-thumb.active').removeClass('active')
@@ -139,8 +156,42 @@
     })
   })
 
- 
+  //data table script
+  //data  table export without filtering
+  $("#example1").DataTable({
+    "responsive": false,
+    "lengthChange": false,
+    "ordering": false,
+    "searching": false,
+    "paging": false,
+    "autoWidth": false,
+    "buttons": ["csv", "excel", "pdf", "print"]
+  }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+
+  //data table export with filtering
+  $("#example2").DataTable({
+    "responsive": false,
+    "lengthChange": false,
+    "ordering": false,
+    "searching": true,
+    "paging": false,
+    "autoWidth": false,
+    "buttons": ["csv", "excel", "pdf", "print"]
+  }).buttons().container().appendTo('#example2_wrapper .col-md-6:eq(0)');
+
+
+  $('#example3').DataTable({
+    "paging": false,
+    "lengthChange": false,
+    "searching": true,
+    "ordering": false,
+    "info": true,
+    "autoWidth": false,
+    "responsive": true,
+  });
 </script>
 
+
 </body>
+
 </html>

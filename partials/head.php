@@ -33,6 +33,10 @@
   <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css">
   <!-- dropzonejs -->
   <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
   <style>
@@ -40,12 +44,10 @@
       font-weight: normal;
     }
 
-    .mi-bg {
-      background-color:#ffe6e6; 
-      /* Yellow green 4ED8E, E2F1A0 , #73733f , 001a00*/
+
+    .mi-nav-color {
+      background-color: #194d19;
     }
-  .mi-nav-color{
-    background-color: #194d19; 
-  }
+
   </style>
 </head>

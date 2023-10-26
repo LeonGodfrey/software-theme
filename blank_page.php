@@ -26,6 +26,27 @@
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
+        <div class="container mt-4">
+    <h1>Export Table as CSV and PDF</h1>
+    <button id="exportCSV" class="btn btn-primary">Export as CSV</button>
+    <button id="exportPDF" class="btn btn-primary">Export as PDF</button>
+</div>
+        <table id="example" class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
+
           
         </div><!-- /.container-fluid -->
       </section>

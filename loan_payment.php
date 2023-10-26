@@ -103,25 +103,25 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;" for="deposit">Total Amount Recieved*</label>
+                                                    <label for="deposit">Total Amount Recieved*</label>
                                                     <input name="amount" type="number" class="form-control" id="">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;" for="deposit">Principal Recieved*</label>
+                                                    <label for="deposit">Principal Recieved*</label>
                                                     <input name="amount" type="number" class="form-control" id="">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;" for="deposit">Interest Recieved*</label>
+                                                    <label for="deposit">Interest Recieved*</label>
                                                     <input name="amount" type="number" class="form-control" id="">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;" for="deposit">Penalties Recieved</label>
+                                                    <label for="deposit">Penalties Recieved</label>
                                                     <input name="amount" type="number" class="form-control" id="">
                                                 </div>
                                             </div>
@@ -129,18 +129,18 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;">Transaction Date*</label>
+                                                    <label>Transaction Date*</label>
                                                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                                                         <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div> 
                                                         </div>
-                                                        <input name="transaction_date" type="text" class="form-control datetimepicker-input" data-target="#reservationdate" required="required" />
+                                                        <input name="transaction_date" type="text" class="form-control datetimepicker-input" data-target="#reservationdate" required="required" readonly>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label style="font-weight: normal;" for="full_name">Reciept Number</label>
+                                                    <label for="full_name">Reciept Number</label>
                                                     <input type="text" class="form-control" id="" name="full_name">
                                                 </div>
                                             </div>

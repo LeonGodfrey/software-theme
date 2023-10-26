@@ -28,7 +28,7 @@
           <div class="row">
             <!-- filter -->
             <div class="col-sm-12">
-              <div class="card">
+              <div class="card card-success card-outline">
                 <!-- /.card-header -->
                 <div class="card-body pb-1">
                   <form action="enhanced-results.html">
@@ -70,7 +70,7 @@
             </div>
             <!-- filter -->
             <div class="col-sm-12">
-              <div class="card card-solid">
+              <div class="card card-solid card-success card-outline">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-6">

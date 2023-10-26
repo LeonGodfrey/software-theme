@@ -29,7 +29,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="card">
+                            <div class="card card-success card-outline">
                                 <div class="card-body pd-0">
                                     <div class="row">
                                         <div class="col-sm-6 col-12">
@@ -57,7 +57,7 @@
                             <!-- /.card -->
                         </div>
                         <div class="col-sm-12">
-                            <div class="card">
+                            <div class="card card-success card-outline">
                                 <div class="card-header">
                                     <h3 class="card-title col-xs-6">Savings Accounts</h3>
                                     <div class="btn-group-links col-xs-6 text-right">
@@ -98,7 +98,7 @@
                             <!-- /.card -->
                         </div>
                         <div class="col-sm-12">
-                            <div class="card">
+                            <div class="card card-success card-outline">
                                 <div class="card-header">
                                     <h3 class="card-title col-xs-6">Loans</h3>
                                     <div class="btn-group-links col-xs-6 text-right">

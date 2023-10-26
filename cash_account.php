@@ -38,7 +38,7 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body table-responsive p-0">
-                                    <table class="table table-hover table-head-fixed">
+                                    <table id="example3" class="table table-hover table-head-fixed table-sm">
                                         <thead>
                                             <tr class="text-nowrap">
                                                 <th>ID</th>
